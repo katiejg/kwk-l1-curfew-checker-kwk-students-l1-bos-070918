@@ -29,7 +29,7 @@ def deluxe_curfew_checker(time)
     elsif time == 11
     "Time to apparate!"
   else
-    curfew - time == difference
+    curfew - time = difference
     "You have #{difference} hour(s) left to keep having fun!"
   end
 end
