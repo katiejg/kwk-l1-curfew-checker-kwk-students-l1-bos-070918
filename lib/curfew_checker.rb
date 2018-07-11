@@ -19,11 +19,19 @@ def complex_curfew_checker(time)
     puts "Time to apparate!"
   else
     puts "You're still under curfew."
+  end
 end
 
 def deluxe_curfew_checker(time)
   curfew = 11
-  
+  if time > 11
+    puts "You're in trouble!"
+    elsif time = 11
+    puts "Time to apparate!"
+  else
+    curfew - time == difference
+    puts "#{difference} until curfew."
+  end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
