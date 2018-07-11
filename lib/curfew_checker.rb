@@ -1,6 +1,6 @@
 def simple_curfew_checker(time)
   if time >= 11
-    puts "You're in trouble!"
+    puts "You're in trouble."
   else
     puts "Not curfew yet."
   end
