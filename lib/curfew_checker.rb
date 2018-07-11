@@ -42,4 +42,5 @@ def platinum_curfew_checker(time, curfew)
   else
     difference = curfew - time
     "You have #{difference} hour(s) left to keep having fun!"
+  end
 end
