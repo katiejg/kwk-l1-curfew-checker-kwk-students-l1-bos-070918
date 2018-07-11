@@ -15,7 +15,7 @@ end
 def complex_curfew_checker(time)
   if time > 11
     "You're in trouble! Better get home quick!"
-    elsif time = 11
+    elsif time == 11
     "Time to apparate!"
   else
     "Keep having fun!"
@@ -26,7 +26,7 @@ def deluxe_curfew_checker(time)
   curfew = 11
   if time > 11
     "You're in trouble! Better get home quick!"
-    elsif time = 11
+    elsif time == 11
     "Time to apparate!"
   else
     curfew - time == difference
